@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.48.0
+
+- První instalace Lussi core přijme podepsaná vydání: doplněk zná veřejné klíče vydání stabilního i pilotního
+  kanálu.
+
 ## 0.47.0
 
 - Opravy a vylepšení.
