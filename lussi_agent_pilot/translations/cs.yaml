@@ -1,0 +1,44 @@
+configuration:
+  cloud_url:
+    name: Adresa Lussi cloudu
+    description: Výchozí https://api.lussivoice.com.
+  bezpeci_navic:
+    name: Bezpečí navíc
+    description: Spínače a skripty, které otevírají vrata, bránu nebo dveře, odemykají nebo vypínají alarm. Brána je odmítne a skryje.
+  bezpeci_navic_zkontrolovano:
+    name: Bezpečí navíc je zkontrolované
+    description: Seznam bezpečí navíc je úplný (i prázdný). Dokud není zaškrtnuté, brána spínače, skripty a tlačítka nepustí nikomu.
+  detsky_agent:
+    name: Dětský agent
+    description: Agent konverzace dětského pokoje (conversation.…). Když dítě píše Lussi v aplikaci, odpovídá vždy on. Prázdné = dítě Lussi z aplikace nepíše.
+  televize:
+    name: Televize
+    description: Televize Naboo (media_player.…). Dítě a host s místnostmi ji z aplikace ovládají, jen když je v jejich místnostech. Prázdné = dům televizi Naboo nemá.
+  nakupni_seznam:
+    name: Nákupní seznam
+    description: Nákupní seznam domácnosti (todo.…). Dítě vidí jen tento seznam a smí do něj přidávat a odškrtávat.
+  tiskarna:
+    name: Tiskárna
+    description: Jméno tiskárny v síti (mDNS), např. EPSON123456.local. Prázdné = tisk vypnutý.
+  tiskarna_obnovit_otisk:
+    name: Obnovit otisk tiskárny
+    description: Nová hodnota (např. dnešní datum) a restart doplňku připne certifikát tiskárny znovu. Jen po výměně nebo resetu tiskárny.
+  servis_tunel_cil:
+    name: Cíl servisního tunelu
+    description: Adresa doplňku SSH ve vnitřní síti doplňků (host:port), kam vede servisní tunel technika Lussi. Prázdné = tunel vypnutý. Port 22222 nikdy. Vyplní koordinátor při instalaci.
+  servis_doplnky:
+    name: Doplňky pro servis
+    description: Slugy doplňků, které smí technik Lussi ve schváleném servisu restartovat a číst jejich log (např. Lussi agent, Music Assistant). Vyplní koordinátor.
+  servis_komponenty:
+    name: Komponenty Lussi pro servis
+    description: Entity update.… komponent Lussi, které smí technik ve schváleném servisu aktualizovat; předtím se vždy udělá záloha. Vyplní koordinátor.
+  predat_kanalu:
+    name: Předat data druhému kanálu
+    description: Přechod mezi kanály (Lussi agent a Lussi agent (pilot)) bez nového párování. Nejdřív nainstaluj druhý doplněk a nespouštěj ho, pak tuhle volbu zapni a ulož; agent předá data a zastaví se. Potom spusť druhý doplněk.
+  predani_klic:
+    name: Klíč předání
+    description: Vyplní ho sám agent druhého kanálu při předání a po převzetí ho smaže. Nevyplňuj.
+  log_level:
+    name: Úroveň logu
+network:
+  8444/tcp: Brána Lussi Voice (HTTPS doma)

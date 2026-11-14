@@ -1,0 +1,63 @@
+name: Lussi agent (pilot)
+version: 0.47.0.164
+image: ghcr.io/pmisun/{arch}-addon-lussi-agent
+slug: lussi_agent_pilot
+description: Spojení domu s Lussi cloudem – relay na dálku a brána doma na portu 8444
+url: https://github.com/pmisun/lussi-voice-doplnky
+arch:
+- aarch64
+- amd64
+init: false
+startup: services
+boot: auto
+ingress: true
+ingress_port: 8099
+panel_icon: mdi:home-account
+panel_title: Lussi agent
+ports:
+  8444/tcp: 8444
+ports_description:
+  8444/tcp: Brána Lussi Voice (HTTPS doma)
+map:
+- type: ssl
+  read_only: true
+- type: share
+  read_only: false
+- type: homeassistant_config
+  read_only: false
+hassio_api: true
+hassio_role: manager
+homeassistant_api: true
+options:
+  cloud_url: https://api.lussivoice.com
+  bezpeci_navic: []
+  bezpeci_navic_zkontrolovano: false
+  detsky_agent: ''
+  televize: ''
+  nakupni_seznam: todo.shopping_list
+  tiskarna: ''
+  tiskarna_obnovit_otisk: ''
+  servis_tunel_cil: ''
+  servis_doplnky: []
+  servis_komponenty: []
+  predat_kanalu: false
+  predani_klic: ''
+  log_level: info
+schema:
+  cloud_url: url
+  bezpeci_navic:
+  - match(^[a-z0-9_]+\.[a-z0-9_]+$)
+  bezpeci_navic_zkontrolovano: bool
+  detsky_agent: match(^(conversation\.[a-z0-9_]+)?$)?
+  televize: match(^(media_player\.[a-z0-9_]+)?$)?
+  nakupni_seznam: match(^todo\.[a-z0-9_]+$)
+  tiskarna: str?
+  tiskarna_obnovit_otisk: str?
+  servis_tunel_cil: str?
+  servis_doplnky:
+  - match(^[a-z0-9_]+$)
+  servis_komponenty:
+  - match(^update\.[a-z0-9_]+$)
+  predat_kanalu: bool
+  predani_klic: password?
+  log_level: list(debug|info|warning|error)

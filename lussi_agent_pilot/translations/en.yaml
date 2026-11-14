@@ -1,0 +1,44 @@
+configuration:
+  cloud_url:
+    name: Lussi cloud URL
+    description: Default https://api.lussivoice.com.
+  bezpeci_navic:
+    name: Extra security
+    description: Switches and scripts that open the garage door, gate or doors, unlock, or disarm the alarm. The gateway refuses and hides them.
+  bezpeci_navic_zkontrolovano:
+    name: Extra security checked
+    description: The extra security list is complete (even if empty). Until this is ticked, the gateway lets no one control switches, scripts or buttons.
+  detsky_agent:
+    name: Child agent
+    description: Conversation agent of the child's room (conversation.…). When a child writes to Lussi in the app, it always answers. Empty = the child cannot write to Lussi from the app.
+  televize:
+    name: Television
+    description: Naboo television (media_player.…). A child and a guest with rooms control it from the app only when it is in their rooms. Empty = the home has no Naboo television.
+  nakupni_seznam:
+    name: Shopping list
+    description: The household's shopping list (todo.…). A child sees only this list and may add and check off items.
+  tiskarna:
+    name: Printer
+    description: Printer name on the network (mDNS), e.g. EPSON123456.local. Empty = printing disabled.
+  tiskarna_obnovit_otisk:
+    name: Re-pin printer fingerprint
+    description: A new value (e.g. today's date) and an add-on restart pin the printer certificate again. Only after replacing or resetting the printer.
+  servis_tunel_cil:
+    name: Service tunnel target
+    description: Address of the SSH add-on in the add-on network (host:port) for the Lussi technician's service tunnel. Empty = tunnel off. Never port 22222. Set by the coordinator during installation.
+  servis_doplnky:
+    name: Add-ons for service
+    description: Slugs of add-ons the Lussi technician may restart and read the log of during an approved service session. Set by the coordinator.
+  servis_komponenty:
+    name: Lussi components for service
+    description: update.… entities of Lussi components the technician may update during an approved service session; a backup is always made first. Set by the coordinator.
+  predat_kanalu:
+    name: Hand data over to the other channel
+    description: Switch between channels (Lussi agent and Lussi agent (pilot)) without pairing again. Install the other add-on first and do not start it, then turn this on and save; the agent hands its data over and stops. Then start the other add-on.
+  predani_klic:
+    name: Handover key
+    description: Filled in by the agent of the other channel during the handover and deleted once taken over. Leave empty.
+  log_level:
+    name: Log level
+network:
+  8444/tcp: Lussi Voice gateway (HTTPS at home)
