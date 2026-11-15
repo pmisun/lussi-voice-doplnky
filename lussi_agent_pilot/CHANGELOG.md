@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.53.0
+
+- Když se aplikace víc členů připojí naráz, žádné spojení se nezavře a ovládání se po startu rozjede rychleji.
+
 ## 0.52.0
 
 - Opravy a vylepšení.
