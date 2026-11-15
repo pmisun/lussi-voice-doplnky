@@ -1,5 +1,5 @@
 name: Lussi agent (pilot)
-version: 0.50.0.175
+version: 0.51.0.179
 image: ghcr.io/pmisun/{arch}-addon-lussi-agent
 slug: lussi_agent_pilot
 description: Spojení domu s Lussi cloudem – relay na dálku a brána doma na portu 8444
