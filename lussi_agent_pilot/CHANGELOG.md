@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.52.0
+
+- Opravy a vylepšení.
+
 ## 0.51.0
 
 - Opravy a vylepšení.
