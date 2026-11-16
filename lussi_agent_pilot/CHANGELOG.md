@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.55.0
+
+- Aplikace připojená na dálku se dočká domu i u velké instalace Home Assistantu a ukáže řadu Rádia.
+
 ## 0.54.0
 
 - Aplikace připojená na dálku už nepřeruší spojení domu s Lussi, ani když je dům velký.
