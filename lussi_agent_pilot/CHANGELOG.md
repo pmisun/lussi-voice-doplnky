@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.54.0
+
+- Aplikace připojená na dálku už nepřeruší spojení domu s Lussi, ani když je dům velký.
+
 ## 0.53.0
 
 - Když se aplikace víc členů připojí naráz, žádné spojení se nezavře a ovládání se po startu rozjede rychleji.
