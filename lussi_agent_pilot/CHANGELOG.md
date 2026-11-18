@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.56.0
+
+- Aplikace umí u hlasového zařízení v místnosti nastavit hlasitost Lussi a vypnout mikrofon.
+
 ## 0.55.0
 
 - Aplikace připojená na dálku se dočká domu i u velké instalace Home Assistantu a ukáže řadu Rádia.
