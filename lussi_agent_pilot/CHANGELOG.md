@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.57.0
+
+- Správce domácnosti uvidí v aplikaci Pravidla domu (noční klid, noční přisvícení, výchozí světla).
+
 ## 0.56.0
 
 - Aplikace umí u hlasového zařízení v místnosti nastavit hlasitost Lussi a vypnout mikrofon.
