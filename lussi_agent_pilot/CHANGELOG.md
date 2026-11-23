@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.59.0
+
+- Google Drive nebo OneDrive pro zálohy půjde z aplikace připojit i bez Home Assistant Cloud.
+
 ## 0.58.0
 
 - Správce domácnosti může v aplikaci připojit Google Drive nebo OneDrive a zapnout pravidelné zálohy domu.
