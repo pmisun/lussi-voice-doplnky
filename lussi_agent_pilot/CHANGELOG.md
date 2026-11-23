@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.58.0
+
+- Správce domácnosti může v aplikaci připojit Google Drive nebo OneDrive a zapnout pravidelné zálohy domu.
+
 ## 0.57.0
 
 - Správce domácnosti uvidí v aplikaci Pravidla domu (noční klid, noční přisvícení, výchozí světla).
