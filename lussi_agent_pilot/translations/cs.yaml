@@ -25,7 +25,7 @@ configuration:
     description: Nová hodnota (např. dnešní datum) a restart doplňku připne certifikát tiskárny znovu. Jen po výměně nebo resetu tiskárny.
   servis_tunel_cil:
     name: Cíl servisního tunelu
-    description: Adresa doplňku SSH ve vnitřní síti doplňků (host:port), kam vede servisní tunel technika Lussi. Prázdné = tunel vypnutý. Port 22222 nikdy. Vyplní koordinátor při instalaci.
+    description: Adresa doplňku SSH ve vnitřní síti doplňků (host:port), u zákazníků bez SSH web HA (homeassistant:8123), kam vede servisní tunel technika Lussi. Prázdné = tunel vypnutý. Port 22222 nikdy. Vyplní koordinátor při instalaci.
   servis_doplnky:
     name: Doplňky pro servis
     description: Slugy doplňků, které smí technik Lussi ve schváleném servisu restartovat a číst jejich log (např. Lussi agent, Music Assistant). Vyplní koordinátor.
@@ -38,6 +38,9 @@ configuration:
   predani_klic:
     name: Klíč předání
     description: Vyplní ho sám agent druhého kanálu při předání a po převzetí ho smaže. Nevyplňuj.
+  vlastnik_provozovatel:
+    name: Vlastníkem HA je provozovatel
+    description: Zapni jen v domě, kde účet vlastníka Home Assistantu patří provozovateli Lussi Voice, i když ho nezaložil průvodce instalací. Jinak dům, kde je vlastníkem domácnost, běží v pokročilém režimu.
   log_level:
     name: Úroveň logu
 network:

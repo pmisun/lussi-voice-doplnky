@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.60.0
+
+- Správce domácnosti si může doma zapnout pokročilý režim s vlastním účtem správce v Home Assistantu; podpora
+  provozovatele pro dům tím končí a návrat obnoví dům do nasazeného stavu.
+
 ## 0.59.0
 
 - Google Drive nebo OneDrive pro zálohy půjde z aplikace připojit i bez Home Assistant Cloud.

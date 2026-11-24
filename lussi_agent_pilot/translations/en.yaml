@@ -25,7 +25,7 @@ configuration:
     description: A new value (e.g. today's date) and an add-on restart pin the printer certificate again. Only after replacing or resetting the printer.
   servis_tunel_cil:
     name: Service tunnel target
-    description: Address of the SSH add-on in the add-on network (host:port) for the Lussi technician's service tunnel. Empty = tunnel off. Never port 22222. Set by the coordinator during installation.
+    description: Address of the SSH add-on in the add-on network (host:port), or the HA web (homeassistant:8123) for customers without SSH, for the Lussi technician's service tunnel. Empty = tunnel off. Never port 22222. Set by the coordinator during installation.
   servis_doplnky:
     name: Add-ons for service
     description: Slugs of add-ons the Lussi technician may restart and read the log of during an approved service session. Set by the coordinator.
@@ -38,6 +38,9 @@ configuration:
   predani_klic:
     name: Handover key
     description: Filled in by the agent of the other channel during the handover and deleted once taken over. Leave empty.
+  vlastnik_provozovatel:
+    name: HA owner is the operator
+    description: Turn on only in a home where the Home Assistant owner account belongs to the Lussi Voice operator although the setup wizard did not create it. Otherwise a home owned by the household runs in advanced mode.
   log_level:
     name: Log level
 network:
