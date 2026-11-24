@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.61.0
+
+- Opravy a vylepšení.
+
 ## 0.60.0
 
 - Správce domácnosti si může doma zapnout pokročilý režim s vlastním účtem správce v Home Assistantu; podpora
