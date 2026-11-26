@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.62.0
+
+- Správce domácnosti může v aplikaci přidat hlasové zařízení a nastavit, kde mu Lussi odpovídá.
+
 ## 0.61.0
 
 - Opravy a vylepšení.
