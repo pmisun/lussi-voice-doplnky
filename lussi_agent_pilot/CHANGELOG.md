@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.65.0
+
+- Aplikace při zapínání režimu alarmu hned ukáže, že se režim zapíná, a pak po blocích, co se zapnulo.
+
 ## 0.64.0
 
 - Správce domácnosti může v aplikaci přidat zařízení libovolného výrobce, ovládat ho a naplánovat.
