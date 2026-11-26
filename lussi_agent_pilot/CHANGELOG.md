@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.66.0
+
+- Členové, kteří si v aplikaci zapnou „Sdílet, jestli jsem doma“, můžou domu hlásit, jestli jsou doma, i na cestách.
+
 ## 0.65.0
 
 - Aplikace při zapínání režimu alarmu hned ukáže, že se režim zapíná, a pak po blocích, co se zapnulo.
