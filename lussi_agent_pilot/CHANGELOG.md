@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.63.0
+
+- Správce domácnosti může v aplikaci spárovat zařízení Zigbee a u čidla uvidí graf teploty a vlhkosti.
+
 ## 0.62.0
 
 - Správce domácnosti může v aplikaci přidat hlasové zařízení a nastavit, kde mu Lussi odpovídá.
