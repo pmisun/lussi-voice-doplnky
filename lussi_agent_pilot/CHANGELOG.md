@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.64.0
+
+- Správce domácnosti může v aplikaci přidat zařízení libovolného výrobce, ovládat ho a naplánovat.
+
 ## 0.63.0
 
 - Správce domácnosti může v aplikaci spárovat zařízení Zigbee a u čidla uvidí graf teploty a vlhkosti.
