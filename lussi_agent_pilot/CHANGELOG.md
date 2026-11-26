@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.67.0
+
+- Správce domácnosti si v aplikaci vybere, kam se zálohy ukládají, přenese na nové místo dosavadní zálohy a pak
+  může smazat zálohy uložené v domě.
+
 ## 0.66.0
 
 - Členové, kteří si v aplikaci zapnou „Sdílet, jestli jsem doma“, můžou domu hlásit, jestli jsou doma, i na cestách.
