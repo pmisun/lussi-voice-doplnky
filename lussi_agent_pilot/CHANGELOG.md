@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.68.0
+
+- Lussi umí v odpovědích mluvit i hlasem Lukiho, když ho domácnost zvolí.
+
 ## 0.67.0
 
 - Správce domácnosti si v aplikaci vybere, kam se zálohy ukládají, přenese na nové místo dosavadní zálohy a pak
